@@ -9,6 +9,7 @@ public class JPFhfdst7 {
             System.out.println(teller);
 
             teller++;
+
         }
         while (teller <= 10);
 
