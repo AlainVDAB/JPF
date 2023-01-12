@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="Einde 10/01/2023">
+    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="gitignore aangepast">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst7/VoorbeeldProcedureA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst7/oef/Huisdieren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst7/oef/Lotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst7/oef/Randomgenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst7/oef/Randomgenerator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Spaarrekening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Getal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/GetalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +45,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JPFhfdst7">
-    <configuration name="Array5integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst6.oef.Array5integers" />
+  <component name="RunManager" selected="Application.GetalMain">
+    <configuration name="GetalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.oef.GetalMain" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst6.oef.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst8.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JPFhfdst6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst6.JPFhfdst6" />
+    <configuration name="Huisdieren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.oef.Huisdieren" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst6.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst7.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,8 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JPFhfdst7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.JPFhfdst7" />
+    <configuration name="Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.oef.Lotto" />
+      <module name="JPF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.jpfhfdst7.oef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.Main" />
+      <module name="JPF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.jpfhfdst8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoorbeeldProcedureA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.VoorbeeldProcedureA" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
@@ -81,9 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JPFhfdst7" />
-        <item itemvalue="Application.Array5integers" />
-        <item itemvalue="Application.JPFhfdst6" />
+        <item itemvalue="Application.GetalMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VoorbeeldProcedureA" />
+        <item itemvalue="Application.Huisdieren" />
+        <item itemvalue="Application.Lotto" />
       </list>
     </recent_temporary>
   </component>
@@ -110,11 +148,37 @@
       <option name="project" value="LOCAL" />
       <updated>1673362632207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Einde 10/01/2023">
+      <created>1673510153607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673510153607</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gitignore aangepast">
+      <created>1673524082872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673524082872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Einde 10/01/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Einde 10/01/2023" />
+    <MESSAGE value="gitignore aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore aangepast" />
   </component>
 </project>
