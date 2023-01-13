@@ -41,5 +41,12 @@ public class Spaarrekening {
     public void overschrijven(Spaarrekening spaarRek, double bedrag){
         saldo -= bedrag;
         spaarRek.storten(bedrag);
+
+    }
+    private boolean checkBedrag(double bedrag) {
+        if (bedrag > 0.0)
+            return true;
+        else
+            return false;
     }
 }
