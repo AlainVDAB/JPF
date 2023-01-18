@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="Einde 13/01/2023">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Kaart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/KaartMain.java" afterDir="false" />
+    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="Einde 10/01/2023">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Waarnemer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/WaarnemerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Waarnemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/Waarnemer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/WaarnemerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/oef/WaarnemerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Spaarrekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Spaarrekening.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Redux Gamer/IdeaProjects/JPF&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/Redux Gamer/IdeaProjects/JPF",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
-  <component name="RunManager" selected="Application.KaartMain">
-    <configuration name="JPFhfdst7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.JPFhfdst7" />
+}]]></component>
+  <component name="RunManager" selected="Application.WaarnemerMain">
+    <configuration name="Array5integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst6.oef.Array5integers" />
+      <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst7.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst6.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KaartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.oef.KaartMain" />
-      <module name="JPF" />
+    <configuration name="JPFhfdst7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst7.JPFhfdst7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst8.oef.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KaartMain" />
         <item itemvalue="Application.WaarnemerMain" />
         <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JPFhfdst7" />
+        <item itemvalue="Application.Array5integers" />
       </list>
     </recent_temporary>
   </component>
@@ -167,14 +168,7 @@
       <option name="project" value="LOCAL" />
       <updated>1673604454373</updated>
     </task>
-    <task id="LOCAL-00004" summary="Einde 13/01/2023">
-      <created>1673611906763</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673611906763</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +196,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Einde 10/01/2023" />
-    <MESSAGE value="Einde 13/01/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Einde 13/01/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Einde 10/01/2023" />
   </component>
 </project>

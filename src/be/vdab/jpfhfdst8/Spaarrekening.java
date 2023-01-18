@@ -1,59 +1,43 @@
 package be.vdab.jpfhfdst8;
 
-public class Spaarrekening {
-    private String rekeningNummer;
-    private double saldo;
+import be.vdab.jpfhfdst10.Rekening;
+
+public class Spaarrekening extends Rekening {
+
     private static double intrest;
-
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
+    public Spaarrekening(String rekeningNummer, double intrest) {
+        this(rekeningNummer, intrest, 0.0);
     }
-
-
-    public static double getIntrest() {
+    public Spaarrekening(String rekeningNummer, double intrest, double
+            saldo) {
+        super(rekeningNummer, saldo);
+        setIntrest(intrest);
+    }
+    public final void setIntrest(double intrest) {
+        if (intrest > 0.0) {
+            Spaarrekening.intrest = intrest;
+        }
+    }
+    public static double getIntrest(){
         return intrest;
     }
-
-    public void setIntrest(double intrest) {
-        Spaarrekening.intrest = intrest;
-    }
-
-    public Spaarrekening(String reknr, double intrest) {
-        rekeningNummer = reknr;
-        Spaarrekening.intrest = intrest;
-    }
-    public String getRekeningNummer(){
-        return rekeningNummer;
-    }
-    public void setRekeningNummer(String reknr) {
-        rekeningNummer = reknr;
-    }
-
-
-    public double getSaldo(){
-        return saldo;
-    }
-
-    public void storten (double bedrag) {
-        if (checkBedrag(bedrag)) {
-            saldo += bedrag;
-        }
-    }
-    public void afhalen (double bedrag) {
-        if (checkBedrag(bedrag)) {
-            saldo -= bedrag;
-        }
-    }
-    public void overschrijven(Spaarrekening spaarRek, double bedrag) {
-        if (checkBedrag(bedrag)) {
-            saldo -= bedrag;
-            spaarRek.storten(bedrag);
+    @Override
+    public void afhalen(double bedrag) {
+        if (bedrag > 0.0) {
+            var testSaldo = getSaldo()- bedrag;
+            if (testSaldo >= 0) {
+                super.afhalen(bedrag);
+            }
         }
     }
 
-
-    private boolean checkBedrag(double bedrag) {
-        return bedrag > 0.0;
+    @Override
+    public String toString() {
+        return super.toString() + ", " + intrest;
+    }
+    @Override
+    public double berekenIntrest() {
+        return getSaldo() * intrest / 100;
     }
 
 
