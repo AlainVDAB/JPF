@@ -1,6 +1,6 @@
 package be.vdab.jpfhfdst10.oef;
 
-public class Personenwagen extends Voertuig {
+public class Personenwagen  extends Voertuig implements Vervuiler {
     private int aantalDeuren = 4;
     private int aantalPassagiers = 5;
     public Personenwagen(){};
@@ -39,4 +39,11 @@ public class Personenwagen extends Voertuig {
      return aantalPassagiers>0? getGemVerbruik()*getPk()/aantalPassagiers : 0;
     };
 
+    @Override
+    public double berekenVervuiling() {
+        return getKyotoScore()*5;
     }
+
+
+
+}

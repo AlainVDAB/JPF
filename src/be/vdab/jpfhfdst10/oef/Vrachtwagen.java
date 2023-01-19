@@ -1,6 +1,6 @@
 package be.vdab.jpfhfdst10.oef;
 
-public class Vrachtwagen extends Voertuig {
+public class Vrachtwagen extends Voertuig implements Vervuiler {
     private float maxLading = 10_000;
 
     public Vrachtwagen() {
@@ -40,6 +40,11 @@ public class Vrachtwagen extends Voertuig {
     @Override
     public double getKyotoScore() {
         return maxLading > 0 ? getGemVerbruik() * getPk()*1000 / maxLading : 0;
+    }
+
+    @Override
+    public double berekenVervuiling() {
+        return getKyotoScore()*20;
     }
 
     ;
