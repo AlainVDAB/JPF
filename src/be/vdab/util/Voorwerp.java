@@ -1,4 +1,4 @@
-package be.vdab.jpfhfdst13.oef;
+package be.vdab.util;
 
 public interface Voorwerp {
     final static String EIGENAAR = "VDAB";

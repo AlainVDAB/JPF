@@ -1,6 +1,4 @@
-package be.vdab.jpfhfdst10.oef;
-
-import be.vdab.jpfhfdst13.oef.Voorwerp;
+package be.vdab.voorwerpen;
 
 public abstract class Boek{
     private String titel = "niet beschikbaar";

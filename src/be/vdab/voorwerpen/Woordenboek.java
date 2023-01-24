@@ -1,6 +1,6 @@
-package be.vdab.jpfhfdst13.oef;
+package be.vdab.voorwerpen;
 
-import be.vdab.jpfhfdst10.oef.Boek;
+import be.vdab.util.Voorwerp;
 
 public class Woordenboek extends Boek implements Voorwerp {
     private String taal = "niet beschikbaar";

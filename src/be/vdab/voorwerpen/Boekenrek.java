@@ -1,4 +1,6 @@
-package be.vdab.jpfhfdst13.oef;
+package be.vdab.voorwerpen;
+
+import be.vdab.util.Voorwerp;
 
 public class Boekenrek implements Voorwerp {
     //private String eigenaar;
