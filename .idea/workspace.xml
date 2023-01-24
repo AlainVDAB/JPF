@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="cursus p 98">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Boek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Milieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Privaat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Stookketel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Vervuiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/Palindroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/PalindroomMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/Rekenaar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/Rekenaar2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/Afschrijving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/Kopieermachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/Kost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/KostProgramma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/Vrachtwagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/Werknemer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Boekenrek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/VoertuigenI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerpen.java" afterDir="false" />
+    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="cursus p 114">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Leesboek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Woordenboek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/opleidingen/Cursus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/opleidingen/ZelfstudieCursus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Personenwagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Personenwagen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Voertuig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Voertuig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Vrachtwagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Vrachtwagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Boek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Boek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst13/oef/Voorwerpen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ideekids/IdeaProjects/JarUitleg",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -169,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673967400530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cursus p 114">
+      <created>1674139937958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674139937958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Einde 10/01/2023" />
     <MESSAGE value="cursus p 98" />
-    <option name="LAST_COMMIT_MESSAGE" value="cursus p 98" />
+    <MESSAGE value="cursus p 114" />
+    <option name="LAST_COMMIT_MESSAGE" value="cursus p 114" />
   </component>
 </project>

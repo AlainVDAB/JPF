@@ -1,12 +1,15 @@
 package be.vdab.jpfhfdst10.oef;
 
-public abstract class Boek {
-    private String titel;
-    private String auteur;
-    private float aankoopprijs;
-    private String genre;
+import be.vdab.jpfhfdst13.oef.Voorwerp;
+
+public abstract class Boek{
+    private String titel = "niet beschikbaar";
+    private String auteur = "niet beschikbaar";
+    private float aankoopprijs = 0.0f;
+    private String genre = "niet beschikbaar";
 
     public Boek(){
+
             };
     public Boek(String titel, String auteur,float aankoopprijs, String genre){
         setTitel(titel);
@@ -17,7 +20,7 @@ public abstract class Boek {
     }
 
     public void setTitel(String titel) {
-        this.titel = titel.equals(null)?"niet beschikbaar":titel;
+        this.titel = titel == null?"niet beschikbaar":titel;
     }
 
     public void setAuteur(String auteur) {
@@ -28,13 +31,23 @@ public abstract class Boek {
         this.aankoopprijs = aankoopprijs<0?0:aankoopprijs;
     }
 
+    public float getAankoopprijs() {
+        return aankoopprijs;
+    }
+
     public void setGenre(String genre) {
         this.genre = genre.equals(null)?"niet beschikbaar":genre;
     }
     public void tonen(){
+        System.out.println("\n---Gegevens---");
         System.out.println("Titel: " + titel);
         System.out.println("Auteur: " + auteur);
         System.out.println("Aankoopprijs: " + aankoopprijs);
         System.out.println("Genre: " + genre);
+    }
+
+    @Override
+    public String toString(){
+        return "Titel: " + titel + "; Auteur: " + auteur + "; Aankoopprijs: " + aankoopprijs + "; Genre: " + genre;
     }
 }
