@@ -1,5 +1,7 @@
 package be.vdab.jpfhfdst8;
 
+import be.vdab.rekening.Spaarrekening;
+
 public class Main {
     public static void main(String[] args) {
         double standSpaarrekening;

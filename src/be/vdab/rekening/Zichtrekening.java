@@ -1,4 +1,6 @@
-package be.vdab.jpfhfdst10;
+package be.vdab.rekening;
+
+import be.vdab.rekening.Rekening;
 
 public class Zichtrekening extends Rekening {
     private int maxKrediet;

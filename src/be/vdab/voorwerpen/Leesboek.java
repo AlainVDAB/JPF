@@ -9,12 +9,12 @@ public class Leesboek extends Boek implements Voorwerp {
     public Leesboek(){}
 
     public Leesboek(String onderwerp) {
-        this("niet beschikbaar", "niet beschikbaar", 0.0f, "niet beschikbaar", onderwerp);
+        this("niet beschikbaar", "niet beschikbaar", 0.0f, "niet beschikbaar", "niet beschikbaar", onderwerp);
 
     }
 
-    public Leesboek(String titel, String auteur, float aankoopprijs, String genre, String onderwerp) {
-        super(titel, auteur, aankoopprijs, genre);
+    public Leesboek(String titel, String auteur, float aankoopprijs, String genre, String isbn, String onderwerp) {
+        super(titel, auteur, aankoopprijs, genre, isbn);
       setOnderwerp(onderwerp);
 
     }

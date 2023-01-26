@@ -9,12 +9,12 @@ public class Woordenboek extends Boek implements Voorwerp {
     public Woordenboek(){}
 
     public Woordenboek(String taal) {
-        this("niet beschikbaar", "niet beschikbaar", 0.0f, "niet beschikbaar", taal);
+        this("niet beschikbaar", "niet beschikbaar", 0.0f, "niet beschikbaar", "niet beschikbaar",taal);
 
     }
 
-    public Woordenboek(String titel, String auteur, float aankoopprijs, String genre, String taal) {
-        super(titel, auteur, aankoopprijs, genre);
+    public Woordenboek(String titel, String auteur, float aankoopprijs, String genre, String isbn, String taal) {
+        super(titel, auteur, aankoopprijs, genre, isbn);
         setTaal(taal);
 
     }
