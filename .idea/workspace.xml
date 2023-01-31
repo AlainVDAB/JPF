@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="cursus p 132">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/main/BoekMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/Isbn13Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/util/RekeningnummerException.java" afterDir="false" />
+    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="cursus p 142">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst18/oef/Geslacht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst18/oef/Persoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst18/oef/PersoonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst19/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst19/oef/Geboorte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/oef/Land.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/oef/LandException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/Voorwerpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/Voorwerpen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/BankBediende.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/main/BankBediende.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/rekening/Rekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/Zichtrekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/rekening/Zichtrekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst8/Spaarrekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/rekening/Spaarrekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Boek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Boek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Leesboek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Leesboek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Woordenboek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/voorwerpen/Woordenboek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/rekening/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/rekening/Rekening.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BoekMain">
+  <component name="RunManager" selected="Application.Geboorte">
     <configuration name="BankBediende" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.main.BankBediende" />
       <module name="JPF" />
@@ -83,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst16.Main" />
+    <configuration name="Geboorte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst19.oef.Geboorte" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst16.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst19.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VoertuigenI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst13.oef.VoertuigenI" />
+    <configuration name="PersoonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst18.oef.PersoonMain" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.util.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst18.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Voorwerpen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.Voorwerpen" />
+    <configuration name="be.vdab.jpfhfdst19.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst19.Main" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.util.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Geboorte" />
+        <item itemvalue="Application.be.vdab.jpfhfdst19.Main" />
+        <item itemvalue="Application.PersoonMain" />
         <item itemvalue="Application.BoekMain" />
         <item itemvalue="Application.BankBediende" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Voorwerpen" />
-        <item itemvalue="Application.VoertuigenI" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674564310235</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cursus p 142">
+      <created>1674743754584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674743754585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +198,8 @@
     <MESSAGE value="cursus p 98" />
     <MESSAGE value="cursus p 114" />
     <MESSAGE value="cursus p 121" />
-    <option name="LAST_COMMIT_MESSAGE" value="cursus p 121" />
+    <MESSAGE value="cursus p 142" />
+    <option name="LAST_COMMIT_MESSAGE" value="cursus p 142" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

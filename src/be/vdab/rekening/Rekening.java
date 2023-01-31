@@ -3,6 +3,8 @@ package be.vdab.rekening;
 import be.vdab.opleidingen.Cursus;
 import be.vdab.util.RekeningnummerException;
 
+import java.util.Objects;
+
 public abstract class Rekening {
     private String rekeningNummer;
     private double saldo;
@@ -85,6 +87,11 @@ public abstract class Rekening {
         } catch (NumberFormatException ex) {
             return false;
         }
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(rekeningNummer);
     }
 
 }
