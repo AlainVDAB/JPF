@@ -1,7 +1,5 @@
 package be.vdab.jpfhfdst10.oef;
 
-import be.vdab.jpfhfdst10.Rekening;
-
 public class TestMain {
     public static void main(String[] args) {
         /*var test = new Vrachtwagen(5862);

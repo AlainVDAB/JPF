@@ -1,6 +1,4 @@
-package be.vdab.jpfhfdst8;
-
-import be.vdab.jpfhfdst10.Rekening;
+package be.vdab.rekening;
 
 public class Spaarrekening extends Rekening {
 
