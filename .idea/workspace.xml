@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="Einde 13/01/2023">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/cursus/Cursus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/cursus/CursusMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/VoertuigenC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/Klinkers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/Rekenaar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst12/oef/RekenaarMain.java" afterDir="false" />
+    <list default="true" id="571ba1e6-4110-4c38-b5a4-e2d93ad6f1bc" name="Changes" comment="cursus p 142">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/Punt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/Winkel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/OefenMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/oef/Beginletter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/oef/Tienkamper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst20/oef/TienkamperMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst21/oef/Gastenboek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst21/oef/GastenboekEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst21/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/winkel/Catalogus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/winkel/Mandje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/winkel/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Voertuig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/Voertuig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/VoertuigenC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/jpfhfdst10/oef/VoertuigenC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +29,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="689a9686-9724-4d33-9bcc-c3e572719479" />
-        <option name="url" value="https://github.com/AlainVDAB/JPF.git" />
-      </UrlAndAccount>
-    </option>
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,21 +54,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Redux Gamer/IdeaProjects/JPF&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ideekids/IdeaProjects/JPF&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CursusMain">
-    <configuration name="CursusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.cursus.CursusMain" />
+  <component name="RunManager" selected="Application.testMain">
+    <configuration name="Beginletter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst20.oef.Beginletter" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.cursus.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst20.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KaartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.oef.KaartMain" />
+    <configuration name="OefenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst20.OefenMain" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst8.oef.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.Main" />
+    <configuration name="TienkamperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst20.oef.TienkamperMain" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst8.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst20.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.oef.StudentMain" />
+    <configuration name="VoertuigenC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst10.oef.VoertuigenC" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst8.oef.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst10.oef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaarnemerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst8.oef.WaarnemerMain" />
+    <configuration name="testMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.jpfhfdst21.testMain" />
       <module name="JPF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.jpfhfdst8.oef.*" />
+          <option name="PATTERN" value="be.vdab.jpfhfdst21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CursusMain" />
-        <item itemvalue="Application.KaartMain" />
-        <item itemvalue="Application.WaarnemerMain" />
-        <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.testMain" />
+        <item itemvalue="Application.Beginletter" />
+        <item itemvalue="Application.OefenMain" />
+        <item itemvalue="Application.TienkamperMain" />
+        <item itemvalue="Application.VoertuigenC" />
       </list>
     </recent_temporary>
   </component>
@@ -163,21 +157,35 @@
       <option name="project" value="LOCAL" />
       <updated>1673362632207</updated>
     </task>
-    <task id="LOCAL-00003" summary="Einde 10/01/2023">
-      <created>1673604454373</created>
+    <task id="LOCAL-00003" summary="cursus p 98">
+      <created>1673967400530</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1673604454373</updated>
+      <updated>1673967400530</updated>
     </task>
-    <task id="LOCAL-00004" summary="Einde 13/01/2023">
-      <created>1673611906763</created>
+    <task id="LOCAL-00004" summary="cursus p 114">
+      <created>1674139937958</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1673611906763</updated>
+      <updated>1674139937958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cursus p 121">
+      <created>1674564310235</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674564310235</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cursus p 142">
+      <created>1674743754584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674743754585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,19 +193,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -205,7 +201,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Einde 10/01/2023" />
-    <MESSAGE value="Einde 13/01/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Einde 13/01/2023" />
+    <MESSAGE value="cursus p 98" />
+    <MESSAGE value="cursus p 114" />
+    <MESSAGE value="cursus p 121" />
+    <MESSAGE value="cursus p 142" />
+    <option name="LAST_COMMIT_MESSAGE" value="cursus p 142" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="be.vdab.util.Isbn13Exception" package="be.vdab.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
