@@ -31,6 +31,8 @@ public class Catalogus {
         return producten;
 
     }
+
+
     @Override
     public String toString() {
         return producten.toString();
